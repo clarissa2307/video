@@ -7,3 +7,12 @@ var vbtnpausa = document.getElementById("btnPausa");
 var vbtnreDetener = document.getElementById("btnDetener");
 //origen.src = listaReproduccion[posicion];
 vreproductor.load();
+
+vbtnReproducir.addEventListener("click",reproducir);
+
+
+function reproducir(){
+    vreproductor.play();
+}
+
+
