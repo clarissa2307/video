@@ -1,6 +1,9 @@
-/**
- * This file is just a silly example to show everything working in the browser.
- * When you're ready to start on your site, clear the file. Happy hacking!
- **/
-
-console.log('Happy hacking :)')
+//var listaReproduccion = ["%PUBLIC_URL%/_dist_/Morat.mp4"]
+var posicion = 0;
+var vreproductor = document.getElementById("reproductor");
+var origen = vreproductor.getElementsByTagName("source")[0];
+var vbtnReproducir = document.getElementById("btnReproducir");
+var vbtnpausa = document.getElementById("btnPausa");
+var vbtnreDetener = document.getElementById("btnDetener");
+//origen.src = listaReproduccion[posicion];
+vreproductor.load();
