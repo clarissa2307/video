@@ -9,10 +9,13 @@ var vbtnreDetener = document.getElementById("btnDetener");
 vreproductor.load();
 
 vbtnReproducir.addEventListener("click",reproducir);
-
+vbtnpausa.addEventListener("click",pausa);
+vreproductor.addEventListener("click",actualizarPanel);
 
 function reproducir(){
     vreproductor.play();
 }
 
-
+function pausa(){
+    vreproductor.pause();
+}
